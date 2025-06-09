@@ -5,7 +5,7 @@ import CV from './assets/zeyad-emad-cv.pdf'
 const userData = {
   // البيانات الأساسية
   name: "Zeyad Emad Rady",
-  title: "Junior Entrepreneur",
+  title: "",
   bio: "Zeyad Emad Rady is a student at the Faculty of Agriculture, Mansoura University, Egypt, specializing in the Soil Science . He is a young entrepreneur, involved in business development, with a passion for sales. He enjoys exploring sales strategies and understanding customer behavior to improve business growth.",
   location: "Mansoura, Egypt",
   
