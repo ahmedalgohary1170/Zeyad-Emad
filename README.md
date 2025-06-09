@@ -1,1 +1,0 @@
-# omer_elgayyar_portfolio
