@@ -39,9 +39,9 @@ const userData = {
   
   // روابط التواصل
   contact: {
-    whatsapp: "https://wa.me/qr/G73DIKZTBETAJ1",
+    whatsapp: "https://wa.me/201091974316",
     phone: "201091974316",
-    phoneLink: "https://wa.me/+201091974316",
+    phoneLink: "https://wa.me/201091974316",
     email: "eng.zeyyademad@gmail.com",
   },
 
