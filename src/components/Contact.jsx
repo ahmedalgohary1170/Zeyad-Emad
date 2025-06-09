@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
+import userData from '../userData'
 
 const Contact = () => {
   return (
@@ -13,20 +14,19 @@ const Contact = () => {
             <p>I'm open to discussing entrepreneurship projects, agricultural innovations, and business opportunities.</p>
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-green-400 mr-2'></FaEnvelope>
-                <a href="mailto:zeyadalyrady72@gmail.com" className='hover:underline'>
-                    zeyadalyrady72@gmail.com
+                <a href={`mailto:${userData.contact.email}`} className='hover:underline'>
+                    {userData.contact.email}
                 </a>
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
-                <a href="https://wa.me/+201091974316" className='hover:underline'>
-
-                <span>+20 109 197 4316</span>
+                <a href={userData.contact.phoneLink} className='hover:underline'>
+                <span>+{userData.contact.phone}</span>
                 </a>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-                <span>Mansoura, Egypt</span>
+                <span>{userData.location}</span>
             </div>
           </div>
           <div className='flex-1 w-full'>

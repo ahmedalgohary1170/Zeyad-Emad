@@ -1,37 +1,5 @@
 import React from "react";
-
-const services = [
-  {
-    id: 1,
-    title: "Bio Lacto – SPARK",
-    description: "Award-winning project recognized for innovation, practicality, and social impact. Won 'Best Applied Project' in May 2025.",
-  },
-  {
-    id: 2,
-    title: "Hult Prize",
-    description: "Ranked 4th out of 103 teams in local finals in February 2025. Developed business model and entrepreneurial skills.",
-  },
-  {
-    id: 3,
-    title: "Sole Project",
-    description: "Conducted market research, created Business Model Canvas and Pitch Deck in December 2024.",
-  },
-  {
-    id: 4,
-    title: "Student Scientific Forum",
-    description: "Developed a nanoparticle-based eco-friendly solution for water purification in October 2024.",
-  },
-  {
-    id: 5,
-    title: "Agricultural Research",
-    description: "Experience in crop management and agricultural analysis from Agricultural Research Center – Mansoura.",
-  },
-  {
-    id: 6,
-    title: "Leadership & Training",
-    description: "Completed multiple leadership programs including Forward Program (McKinsey & Company) and Aspire Leaders Program (Harvard Faculty).",
-  },
-];
+import userData from "../userData";
 
 const Service = () => {
   return (
@@ -39,7 +7,7 @@ const Service = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2 className="text-4xl font-bold text-center mb-12">Projects & Achievements</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
+          {userData.services.map((service) => (
             <div
               key={service.id}
               className="bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg transform 
